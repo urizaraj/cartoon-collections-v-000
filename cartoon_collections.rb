@@ -9,10 +9,11 @@ def summon_captain_plane(elements)
   result = elements.map do |element|
     element[0].upcase + element[1..-1] + '!'
   end
+  result
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(words)
+
 end
 
 def find_the_cheese# code an argument here
