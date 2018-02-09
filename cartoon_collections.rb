@@ -1,5 +1,4 @@
 def roll_call_dwarves(names)
-  names = names.sort
   names.each_with_index do |name, i|
     puts "#{i + 1}. #{name}"
   end
@@ -28,4 +27,3 @@ def find_the_cheese(items)
   result
 end
 
-roll_call_dwarves(['Dopey', 'Bashful', "Grumpy"])
