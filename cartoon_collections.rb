@@ -25,4 +25,5 @@ def find_the_cheese(items)
   result = items.first do |cheese|
     cheese_types.include?(cheese)
   end
+  result
 end
