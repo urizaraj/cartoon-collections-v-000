@@ -1,6 +1,6 @@
 def roll_call_dwarves(names)
   names.sort!
-  names.each do |name|
+  names.each_with_index do |name|
     puts name
   end
 end
