@@ -16,6 +16,7 @@ def long_planeteer_calls(words)
   result = words.any? do |word|
     word.size > 4 ? true : false
   end
+  result
 end
 
 def find_the_cheese# code an argument here
