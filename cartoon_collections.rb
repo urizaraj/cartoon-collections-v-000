@@ -1,5 +1,5 @@
 def roll_call_dwarves(names)
-  names.sort!
+  names = names.sort
   names.each_with_index do |name, i|
     puts "#{i + 1}. #{name}"
   end
