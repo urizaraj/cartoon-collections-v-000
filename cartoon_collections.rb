@@ -5,7 +5,7 @@ def roll_call_dwarves(names)
   end
 end
 
-def summon_captain_plane(elements)
+def summon_captain_planet(elements)
   result = elements.map do |element|
     element[0].upcase + element[1..-1] + '!'
   end
