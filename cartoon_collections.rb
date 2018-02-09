@@ -27,3 +27,5 @@ def find_the_cheese(items)
   end
   result
 end
+
+roll_call_dwarves(['Dopey', 'Bashful', "Grumpy"])
